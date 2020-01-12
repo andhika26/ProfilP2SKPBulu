@@ -1,0 +1,94 @@
+{
+  "project_info": {
+    "project_number": "842012584464",
+    "firebase_url": "https://plk-newpost.firebaseio.com",
+    "project_id": "plk-newpost",
+    "storage_bucket": "plk-newpost.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:842012584464:android:20943b3970803ebe",
+        "android_client_info": {
+          "package_name": "com.example.andhika.perahulayarkertaswebview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "842012584464-f81d0mu79bpukfkurgufu7menkf2nc1i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrN5eUORJ43fSN6QszfzRfLZXu7blSuZU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:842012584464:android:b3638dc6e284641c",
+        "android_client_info": {
+          "package_name": "id.pearhulayarkertas.profilp2skpbulu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "842012584464-g1bpvtpeid8h0shgojaseo6l4a4q64ov.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.pearhulayarkertas.profilp2skpbulu",
+            "certificate_hash": "66eec7d21a0314d4feab2cd195357354ea8edab5"
+          }
+        },
+        {
+          "client_id": "842012584464-b5sr54qf6o85hk8puojijt4ct73ert21.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.pearhulayarkertas.profilp2skpbulu",
+            "certificate_hash": "e4d402468cacd36e5ea0d3a5604c350b6f95339f"
+          }
+        },
+        {
+          "client_id": "842012584464-f81d0mu79bpukfkurgufu7menkf2nc1i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrN5eUORJ43fSN6QszfzRfLZXu7blSuZU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "842012584464-f81d0mu79bpukfkurgufu7menkf2nc1i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="id.pearhulayarkertas.profilp2skpbulu.FasilitasPelabuhan"
+    tools:showIn="@layout/activity_fasilitas_pelabuhan">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_view3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                tools:ignore="DuplicateIds">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/thumbnail1"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_margin="4dp"
+                        android:background="@mipmap/logoappp2skp"
+                        android:contentDescription="@string/app_name"
+                        android:scaleType="centerCrop"
+                        tools:ignore="DuplicateIds" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/thumbnail1"
+                        android:gravity="center_vertical|center_horizontal|center"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="@string/fasilitas_pokok"
+                        android:textColor="#222"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        tools:ignore="DuplicateIds" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/textView2"
+                        android:layout_toEndOf="@+id/thumbnail1"
+                        android:layout_toRightOf="@+id/thumbnail1"
+                        android:gravity="center_vertical|center_horizontal|center"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="@string/fasilitas_pokok_upt_p2skp_bulu"
+                        android:textColor="#666"
+                        android:textSize="14sp" />
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_view2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                tools:ignore="DuplicateIds">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/thumbnail1"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_margin="4dp"
+                        android:background="@mipmap/logoappp2skp"
+                        android:contentDescription="@string/menu_1"
+                        android:scaleType="centerCrop"
+                        tools:ignore="DuplicateIds" />
+
+                    <TextView
+                        android:id="@+id/p3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/thumbnail1"
+                        android:layout_toRightOf="@+id/thumbnail1"
+                        android:gravity="center_vertical|center_horizontal|center"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="@string/fasilitas_fungsional1"
+                        android:textColor="#222"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        tools:ignore="DuplicateIds" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/p3"
+                        android:layout_toEndOf="@+id/thumbnail1"
+                        android:layout_toRightOf="@+id/thumbnail1"
+                        android:gravity="center_vertical|center_horizontal|center"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="@string/fasilitas_fungsional"
+                        android:textColor="#666"
+                        android:textSize="14sp" />
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_view1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                tools:ignore="DuplicateIds">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/thumbnail1"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_margin="4dp"
+                        android:background="@mipmap/logoappp2skp"
+                        android:contentDescription="@string/menu_1"
+                        android:scaleType="centerCrop"
+                        tools:ignore="DuplicateIds" />
+
+                    <TextView
+                        android:id="@+id/p1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/thumbnail1"
+                        android:gravity="center_vertical|center_horizontal|center"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="@string/fasilitas_penunjang"
+                        android:textColor="#222"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/p1"
+                        android:layout_toEndOf="@+id/thumbnail1"
+                        android:layout_toRightOf="@+id/thumbnail1"
+                        android:gravity="center_vertical|center_horizontal|center"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="@string/fasilitas_penunjang_pelabuhan"
+                        android:textColor="#666"
+                        android:textSize="14sp" />
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

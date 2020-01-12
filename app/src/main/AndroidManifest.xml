@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="id.pearhulayarkertas.profilp2skpbulu">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logoappp2skp"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logoappp2skp"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MenuUtama"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".KataPengantar"
+            android:label="@string/title_activity_kata_pengantar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TentangAplikasi"
+            android:label="@string/title_activity_tentang_aplikasi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".KepalaUPT"
+            android:label="@string/title_activity_kepala_upt"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FasilitasPelabuhan"
+            android:label="@string/title_activity_fasilitas_pelabuhan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Kepegawaian"
+            android:label="@string/title_activity_kepegawaian"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ProduksiIkan"
+            android:label="@string/title_activity_produksi_ikan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BeritaPIPP"
+            android:label="@string/title_activity_berita_pipp"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MenuUtama2"
+            android:label="@string/title_activity_menu_utama2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PrakiraanCuaca"
+            android:label="@string/title_activity_prakiraan_cuaca"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
